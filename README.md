@@ -1,4 +1,4 @@
-###SETUP STEPS
+### SETUP STEPS
 1. Install required packages using:
     ~~~   
     pip install -r requirements.txt
@@ -14,10 +14,10 @@
     YOUTUBE_API_KEY=REPLACE_THIS_WITH_API_KEY
     ~~~
    
-###RUNNING THE SERVER PROGRAM
+### RUNNING THE SERVER PROGRAM
 1. Run the "microservice_server.py" file located in the root project directory
 
-###USING A CLIENT PROGRAM
+### USING A CLIENT PROGRAM
 1. Create a connection to the server:
     ~~~
     conn = rpyc.connect("localhost", 18861)
