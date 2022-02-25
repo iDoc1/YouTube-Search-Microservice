@@ -25,7 +25,7 @@ class YouTubeService(rpyc.Service):
         :return: a list or URL strings
         """
 
-        # Create a YouTube API class and perform search
+        # Create a YouTube API object and perform search
         youtube_api = YouTubeApi()
         return youtube_api.search(search_string, max_results)
 
